@@ -16,10 +16,6 @@ def btn1():
     global s
     cout=entry.get()
     lens=entry1.get()
-    # if not cout or not lens:
-    #     error = tkinter.Label(text="No", width=60, foreground='Black')
-    #     error.pack()
-    # button.destroy()
     try:
         cout=int(cout)
         lens=int(lens)
